@@ -42,7 +42,7 @@ In this work it is most important that the generated password is strong (in the 
     * Password will consist of two words, which are binded through a randomly generated special character
     * User will be asked different questions to determine personalised answers
     * The answers will be rewritten in (simple) 'leetspeak' (So that the user is able to remember)
-    * To overcome the problem of leetspeak-generators in combination with wordbook lybaries, the second word will be reversed
+    * Due to available leetspeak-generators and dictonaries, the second word will be reversed
     * User will be acquaint with the structure of the password 
 
 ### Define questions and answers for the user
@@ -52,21 +52,51 @@ In this work it is most important that the generated password is strong (in the 
             * Think of your favourite Holiday(Country or Subject). What is the first word that pops up your mind: XX
      * Second word(simple):
          * Choose a topic: Fruits, Animals or Sports
-             * What is your favourite Fruit(Animal or Subject): YY
+             * What is your favourite Fruit(Animal or Sport): YY
+             
+
 ### Define simple leetspeak dictionary
-       * 
+    * Simple leetspeak dictionary with replacement of letters only by numbers
+        (i=1, z=2, e=3, a=4, s=5, g=6, t=7, b=8, p=9, o=0)
+        
+### Define generator for random special character
+    * code random
+
+### Pseudo Code Structure
+
+#### First stage
+    * Create List: Holiday, Country, Subject
+    * Create list: Fruit, Animal, Sport
+    * Create Dictinary "User Answer 1" & "User Answer 2"
+    * Create Dictinary "User modified Answer 1" & "User Answer 2"
+    * Create Dictinary "Leetspeak"
+    * Create Function: Change User Answer by Leetspeak and save in dictionary
+    
+#### Second stage
+    * Interactive Question to user:
+        * Choose a topic: Holidays, Countries or Subjects
+            ONLY IF RIGHT WORD TYPED IN:
+            * Think of your favourite Holiday(Country or Subject). What is the first word that pops up your mind: XX
+    * Function to transform answer and save in Dictionary
+
+    * REPEAT FOR SECOND QUESTION
+
+    * Generate the special character between the words
+    
+    * Show user his true answers to the questions
+    * Show user his special character
+    * Show user his new password
+            
 <a name="organization"></a>
 
 ## Organization
 How did you organize yourself? Did you use any tools?
 
-Testing passwords on : https://wiesicheristmeinpasswort.de/ and http://www.passwordmeter.com/
+Websites to test generated passwords : https://wiesicheristmeinpasswort.de/ and http://www.passwordmeter.com/
 
 <a name="links"></a>
 
 ## Links
-Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
-
-[Repository](https://github.com/)  
+[Repository](https://github.com/Onur5/project_strong_password_generator.git) 
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Trello](https://trello.com/b/L7VnlXuh/random-number-generator)  
