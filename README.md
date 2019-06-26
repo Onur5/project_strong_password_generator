@@ -38,9 +38,23 @@ In this work it is most important that the generated password is strong (in the 
     * Combine words by using a special character
     * You should be able to remember it
 
-### 
-    
+### Implementation:
+    * Password will consist of two words, which are binded through a randomly generated special character
+    * User will be asked different questions to determine personalised answers
+    * The answers will be rewritten in (simple) 'leetspeak' (So that the user is able to remember)
+    * To overcome the problem of leetspeak-generators in combination with wordbook lybaries, the second word will be reversed
+    * User will be acquaint with the structure of the password 
 
+### Define questions and answers for the user
+    * Two different stages for each word
+    * First word(hard):
+        * Choose a topic: Holidays, Countries or Subjects
+            * Think of your favourite Holiday(Country or Subject). What is the first word that pops up your mind: XX
+     * Second word(simple):
+         * Choose a topic: Fruits, Animals or Sports
+             * What is your favourite Fruit(Animal or Subject): YY
+### Define simple leetspeak dictionary
+       * 
 <a name="organization"></a>
 
 ## Organization
