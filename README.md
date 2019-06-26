@@ -38,7 +38,7 @@ In this work it is most important that the generated password is strong (in the 
     * Combine words by using a special character
     * You should be able to remember it
 
-### Implementation:
+### Implementation of the rules:
     * Password will consist of two words, which are binded through a randomly generated special character
     * User will be asked different questions to determine personalised answers
     * The answers will be rewritten in (simple) 'leetspeak' (So that the user is able to remember)
