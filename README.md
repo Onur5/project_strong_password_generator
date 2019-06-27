@@ -98,5 +98,5 @@ Websites to test generated passwords : https://wiesicheristmeinpasswort.de/ and 
 
 ## Links
 [Repository](https://github.com/Onur5/project_strong_password_generator.git) 
-[Slides](https://slides.com/)  
+[Slides](https://slides.com/onurtaskin/deck)  
 [Trello](https://trello.com/b/L7VnlXuh/random-number-generator)  
